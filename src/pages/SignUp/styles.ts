@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import signBackground from '../../assets/sign-up-background.png'
 import {shade} from 'polished'
+
+
 export const Container = styled.div`
 height:100vh;
 display:flex;
