@@ -1,17 +1,23 @@
-import React from 'react'
-import {Container} from './styles'
+import React from 'react';
 
-interface TooltipProps{
-    title:string,
-    className?:string
-}
-const Tooltip: React.FC<TooltipProps> = ({title,className, children}) => {
-return (
-<Container className={className} >
-    {children}
-    <span>{title}</span>
-</Container>
-)
+import { Container } from './styles';
+
+interface ToolTipProps {
+  title: string;
+  className?: string;
 }
 
-export default Tooltip
+const ToolTip: React.FC<ToolTipProps> = ({
+  title,
+  className = '',
+  children,
+}) => {
+  return (
+    <Container className={className}>
+      {children}
+      <span>{title}</span>
+    </Container>
+  );
+};
+
+export default ToolTip;
