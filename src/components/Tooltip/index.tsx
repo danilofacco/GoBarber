@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container } from '../Tooltip/styles';
 
 interface ToolTipProps {
   title: string;
   className?: string;
 }
 
-const ToolTip: React.FC<ToolTipProps> = ({
+const Tooltip: React.FC<ToolTipProps> = ({
   title,
   className = '',
   children,
@@ -20,4 +20,4 @@ const ToolTip: React.FC<ToolTipProps> = ({
   );
 };
 
-export default ToolTip;
+export default Tooltip;
