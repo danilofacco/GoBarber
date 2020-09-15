@@ -25,11 +25,6 @@ export const PageHeaderDiv = styled.div`
    } 
 
  
-
-
-    
- 
-
       
     #direita 
     
@@ -67,7 +62,7 @@ export const PageHeaderDiv = styled.div`
         color:#ed1c24;
         }
 
-    @media (max-width:800px){
+    @media (max-width:960px){
         #mobile {
             display:block;
         }
