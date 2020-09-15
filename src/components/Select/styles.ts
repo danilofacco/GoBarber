@@ -43,7 +43,7 @@ export const Container = styled.div<ContainerProps>`
       color: #309AD0;
     `}
 
-  input {
+  select {
     &:-webkit-autofill {
       box-shadow: 0 0 0 30px #232129 inset;
     }
@@ -66,6 +66,10 @@ export const Container = styled.div<ContainerProps>`
   svg {
     margin-right: 16px;
   }
+
+
+
+  
 `;
 
 export const Error = styled(ToolTip)`
